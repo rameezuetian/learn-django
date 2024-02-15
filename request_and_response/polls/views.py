@@ -46,7 +46,6 @@ def generate_large_csv():
         # Add more data here...
     ]
 
-    # Yield the rows of the CSV file one by one
     for row in data:
         yield ','.join(map(str, row)) + '\n'
 
